@@ -11,6 +11,7 @@ You can run Chromium or docker.
 
 ## Getting Started
 
+### Run menggunakan NPM
 ### Install dependencies.
 `npm install`
 
@@ -19,6 +20,7 @@ You can run Chromium or docker.
 
 (service port: 3000)
 
+### Run menggunakan Docker
 ### Start server using docker (If you can not run Chromium and installed docker)
 `docker run -d --name renderer -p 8080:3000 zenato/puppeteer-renderer`
 
